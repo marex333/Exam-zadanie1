@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) {
-        int apples = 0;
+       /* int apples = 0;
         int oranges = 0;
         int coins = 0;
 
@@ -44,5 +44,25 @@ public class Main {
         System.out.println("Minimalna roznica: " + Math.abs(j - p));
 
     }
+*/
 
+        Drzewo drzewo = new Drzewo();
+        drzewo.korzen.dodajGalaz(2);
+        drzewo.korzen.dodajGalaz(5);
+        drzewo.korzen.dodajGalaz(4);
+        drzewo.korzen.dodajGalaz(6);
+        drzewo.korzen.dodajGalaz(3);
+        drzewo.korzen.dodajGalaz(8);
+        drzewo.korzen.dodajGalaz(42);
+        drzewo.korzen.dodajGalaz(55);
+        drzewo.korzen.dodajGalaz(4);
+        drzewo.korzen.dodajGalaz(33);
+        drzewo.korzen.dodajGalaz(4);
+        drzewo.korzen.dodajGalaz(4);
+        drzewo.korzen.dodajGalaz(22);
+        drzewo.korzen.dodajGalaz(24);
+        drzewo.korzen.dodajGalaz(4);
+        drzewo.korzen.dodajGalaz(4);
+        //drzewo.korzen.wyswietlDrzewo();
+    }
 }
